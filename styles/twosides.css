@@ -1,3 +1,4 @@
+
 * {
 	-webkit-box-sizing: border-box;
 	   -moz-box-sizing: border-box;
@@ -12,38 +13,43 @@ body {
     margin: 0; /* keep this */
 }
 
-#cougar {
-	background: #B26219;
+.columnleft {
+	margin: auto;
+	float: left;
+	width: 50%;
 	clear: both;
+	padding: 0 3%;
 }
 
-#lion {
+.cougar {
+	background: #B26219;
+	overflow: auto;
+	float: left;
+}
+
+.lion {
 	background: #FFD5AE;
+	overflow: auto;
+	float: left;
 }
 
-#tiger {
+.tiger {
 	background: #FFBD82;
+	overflow: auto;
+	float: left;
 }
 
 article {
-	width: 60%;
-	background: #fff;
-	margin: 50px auto;
-	padding: 15px 40px;
-}
-
-h2, section > p {
-	text-align: center;
-}
-
-img {
-	display: block;
+	width: 50%;
 	margin: auto;
+	float: left;
+	padding-right: 3%;
 }
 
 footer {
 	text-align: center;
 	padding: 20px 200px;
+	clear: both;
 }
 
 header {
@@ -52,7 +58,7 @@ header {
 
 h1 {
 	float: left;
-	width: 200px;
+	width: 49%;
 }
 
 /* ----- suggested colors -----
@@ -79,7 +85,7 @@ a:hover { color: #666; }
 
 nav {
 	float: right;
-	width: 300px;
+	width: 49%;
 	margin-top: 25px;
 }
 
@@ -88,7 +94,7 @@ nav ul {
 }
 
 nav li {
-	float: left;
+	float: right;
 	margin-right: 20px;
 }
 
